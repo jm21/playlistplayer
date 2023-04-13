@@ -1,0 +1,26 @@
+@import "config/imports";  
+@import "templates/index"; 
+
+
+
+
+html, body {
+	height: 100%
+}
+
+body {
+	font-size: 10px;
+	font-family:$font;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: subpixel-antialiased ;
+    -webkit-transform: none !important;	
+	-webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+	 font-weight: 600;
+	 overflow: hidden;
+}
+
+img {
+	display: none;
+}

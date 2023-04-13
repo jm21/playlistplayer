@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<title>KFC WebOS App</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="css/style.css">
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./playlist.json"></script>
+<script src="./js/playlist.js"></script>
+</head>
+<body>
+      <div id="playListdiv" class="main">
+        <video id="videoPlayer"
+          muted="true"
+          playsinline="true"
+          style="display: none;"
+          class="mediaplayer"
+
+         
+        ><source id="videoSrc" src=""></video>
+        <img src="" alt="" srcset="" class="mediaplayer" id="imagePlayer" style=" width: 100vw; height: 100vh; display:none"/>
+    </div>
+
+</body>
+<script>
+    $('#playListdiv').playList();
+</script>
+</html>
